@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Boilerplate by Marya
+This project bootstrapped with [Create React App](https://github.com/facebook/create-react-app) is part of a "React Boilerplate as We Go" publication on [Medium](https://medium.com/a-react-boilerplate-repo-as-we-go). The publication contains stories that will be progressively added, simultaneously while updating and upgrading the react-boilerplate repo. The stories will provide the reasoning behind the decisions taken and an explanation on the added features.
 
 ## Available Scripts
 
@@ -35,9 +34,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Project Conventions
+- [Conventional Commits](https://www.conventionalcommits.org/) for source code commit message conventions.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Deployment
+The project is setup for automatic deployment with [Netlify](https://www.netlify.com/) and can be accessed at https://react-boilerplate-marya.netlify.app/.
 
 ## Learn More
 
