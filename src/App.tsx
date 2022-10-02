@@ -19,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <footer>
+        <p>Copyright &#169; 2022 Marya Sadek</p>
+      </footer>
     </div>
   );
 }
