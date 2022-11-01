@@ -1,5 +1,8 @@
 import React from 'react';
+import { Typography, Link } from '@mui/material';
+
 import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -7,20 +10,20 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <Typography variant='h5'>
           Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
+        </Typography>
+        <Link
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
+          color="#61dafb"
         >
           Learn React
-        </a>
+        </Link>
       </header>
       <footer>
-        <p>Copyright &#169; 2022 Marya Sadek</p>
+        <Typography>Copyright &#169; 2022 Marya Sadek</Typography>
       </footer>
     </div>
   );
