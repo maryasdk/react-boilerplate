@@ -1,5 +1,5 @@
-import React from 'react';
 import { Typography, Link } from '@mui/material';
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 
 import logo from './logo.svg';
 
@@ -19,7 +19,7 @@ function App() {
           rel="noopener noreferrer"
           color="#61dafb"
         >
-          Learn React
+          Learn <LocalLibraryIcon color='secondary'/> React
         </Link>
       </header>
       <footer>
