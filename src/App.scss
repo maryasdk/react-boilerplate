@@ -1,3 +1,5 @@
+@use "styles/variables" as var;
+
 .App {
   text-align: center;
 }
@@ -14,13 +16,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var.$bg;
   height: 93vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var.$white;
 }
 
 footer {
